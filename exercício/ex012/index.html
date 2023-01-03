@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+
+<h1>Inserindo videos hospedados localmente</h1>
+<p>Este video está hospedado no meu próprio servidor.</p>
+<video width="300"  controls 
+poster="imagens/donuts.jpeg">
+    <source src="media/meuvideo.mp4" type="video/mp4">
+    <source src="media/Meuvideom4v.m4v" type="video/mv4">
+    <source src="media/Meuvideowebm.mkv" type="video/mkv">
+    <source src="media/Meuvideowebm.webm" type="video/webm"> 
+    <p>Seu navegador não tem compatibilidade com reprpdução de video. </p>
+</video>
+<h1>Inserindo video de Youtube videos externos</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0XNposXBlkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1>Inserindo videos do VIMEO</h1>
+<iframe src="https://player.vimeo.com/video/8055852?h=87e528c66e&title=0&byline=0&portrait=0" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
+<!-- È importante colocar bastante arquivos de video por que voce não
+    sabe se um unico video que voce colocar vai carregar em todos os 
+    dispositivos tipo firefox, chrome enfim por isso é importante ter mais arquivos selecionados do mesmo video.
+    o WIDHT é o tamanho do video no site, mas ele nao diminui o arquivo,
+    CONTROLS é para o video dar play. e POSTER é para colocar uma imagem antes de começar o video.
+    SOURCE SRC tags para colocar o video type é a descricão do arquivo. 
+    QUANDO VOCE USA VIDEO HOSPEDADOS NO SEU PRORPIO SERVIDOR VOCE PODE
+    GERAR UM CONSUMO ABSURDO DE GIGA QUER DIZER QUE OS VIDEOS VÃO CONSUMIR
+    MUITOS TRAFEGOS DE DADOS. 
+    O consumo mensal do vimeo ele é ilimitado. Mas todos conseguem. 
+-->

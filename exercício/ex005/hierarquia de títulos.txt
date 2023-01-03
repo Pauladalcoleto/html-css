@@ -1,0 +1,18 @@
+hierarquia de títulos
+
+
+
+1- principal 
+2- sub títulos e dentro dos subtítulos eu tenho outros niveis de títulos. 
+3- estçao abaixo dos subtitítulos então eu tenho subtítulos abaixo dos subtítulos que são outros níveis de títulos.
+
+Eu não posso passar do Principal pro subtítulo 3 por exemplo. 
+
+h1- é o seu título de nível 1
+h2 - título de nível 2
+
+Title é seu título
+
+voce pode colocar até 6 níveis de h1-h2-h3-h4-h5-h6
+
+se voce tiver mais de 6 níveis voce tá com um texto muito complexo que ninguém vai ler. 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em  HTML5</title>
+</head>
+<body>
+<h1> Imagem dinâmica</h1>
+<p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+<picture>
+    <source media="(max-width: 750px )" srcset="imagens/imagemp.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/imagemm.png" type="image/png">
+    <img src="imagens/imagemg.png" alt="imagem flexivel">
+
+
+    <h1>Reproduzindo Àudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+   <audio preload="metadata" autoplay controls loop>
+    <source src="media/audio.mp3" type="audio/mpeg">
+    <source src="media/audio.ogg" type="audio/ogg">
+    <source src="media/audio.wav" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir audio.<a href="media/audio.mp3"> Clique aqui 
+        para baixar o arquivo MP3</a><p>
+   </audio>
+</picture>
+</body>
+</html>
+
+<!--Se o seu usuario entra em um site e sai rapidamente o google entende que esse site está sendo rejeitado e entra no 
+google como rejeição e isso não mostra seu site nas buscas.
+- Coloquei com a tag IMG a imagem G que é a de tamanho maior, em cima da tag IMG eu coloquei a tag SOURCEMEDIA que dentro
+dessa tag eu coloquei MAX-WIDTH: de 1050px (que esse 1050 foi estipulado por mim) 
+após isso eu coloquei a tag SRCSET= eu coloquei dentro dessa tag a IMAGEMM que é de tamanho M e com isso o site ele
+entende que quando eu precisar de uma foto menor ele vai alterar automaticamente, exemplo de um computador de um celular e de
+uma televisão para a imagem der carregada em todos os tipos de aparelho.
+TOMA CUIDADO A ORDEM DAS SOURCE TEM QUE SER SEGUIDA DOS TAMANHOS DAS FOTOS POR QUE SE NÃO O SITE NÃO ASSUME OS TAMANHO
+Para reproduzir audio voce coloca a tag AUDIO depois CONTROLS AUTOPLAY básicamente os audios que são compatíveis são
+MP3-WAV-OGG -->

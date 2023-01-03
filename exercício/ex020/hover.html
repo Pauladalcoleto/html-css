@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de hover</title>
+    <style>
+        body {  font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+         
+        div > p { display: none;    } 
+
+        div:hover > p { display: block;
+                          color: white;
+                         background-color: red;}
+
+        div:hover { color: red;}
+       
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplos de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui.
+     <p>TEXTO ESCONDIDO....</p> 
+    </div>
+    <p>Fim do exercício </p>
+</body>
+</html>
+
+<!--PARA ESCONDER UM PARAGRAFO DENTRO DE UMA MENSAGEM TIPO CLIQUE AQUI. 
+ div > p { display: none; } 
+ div > p significa que foi criado um filho para a div. O p(paragráfo) é um filho da div. Então toda vez que voce passa o mouse no texto da div ele abre o paragráfo que esta escondido, mas o paragrafo tem que estar dentro da div.
+  div:hover > p { display: block; O DISPLAY:BLOCK ELE QUE SERVE PARA MOSTRAR O TEXTO QUANDO VOCE PASSA O MOUSE POR CIMA. 
+                          color: white;
+                         background-color: red;}
+ 
+                          div > p { display: none;    } PARA ESCONDER O TEXTO. 
+
+ -->
